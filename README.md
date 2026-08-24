@@ -1,6 +1,6 @@
 # Revenue Analytics
 
-Customer segmentation and revenue forecasting built on ~50,000 transaction records spanning 2 years (2024–2025).
+Customer segmentation and revenue forecasting built on 50,000 transaction records spanning 2 years (2024–2025).
 
 ## Contents
 
