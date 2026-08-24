@@ -54,8 +54,6 @@ Customers ranked by total net revenue to check what share the top decile contrib
 
 Finding: revenue is spread fairly evenly across the customer base — the top 10% contribute well under half of total revenue, unlike a classic 80/20 pattern. The business is not overly dependent on a small handful of customers.
 
-**Finding:** revenue is spread fairly evenly across the customer base — the top 10% contribute well under half of total revenue, unlike a classic 80/20 pattern. The business is not overly dependent on a small handful of customers, a different risk profile from the product-level concentration seen elsewhere.
-
 ---
 
 ## Revenue Forecasting
