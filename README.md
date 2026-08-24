@@ -1,4 +1,4 @@
-# Revenue Analytics
+# Customer Segmentation & Revenue Forecasting
 
 Customer segmentation and revenue forecasting built on 50,000 transaction records spanning 2 years (2024–2025).
 
@@ -21,7 +21,7 @@ Customer segmentation and revenue forecasting built on 50,000 transaction record
 
 ---
 
-## Module 2 — Customer Analytics
+## Customer Analytics
 
 ### 1. RFM Analysis
 The dataset already carries a business-assigned `segment` label (Premium / Standard / Budget / New) — but a label isn't an analysis. RFM measures actual behaviour independently so it can be checked against that label:
@@ -50,13 +50,15 @@ Lifespan is set to **3 years** as an explicit assumption — the dataset only co
 - **Inactive** is defined as Recency > 90 days — chosen relative to the data's own median purchase gap (16 days), making 90 days a meaningful drop-off rather than an arbitrary cutoff.
 
 ### 5. Top Customers & Revenue Concentration
-Customers ranked by total net revenue to check what share the top decile contributes (the customer-level equivalent of the product-level Pareto analysis in Module 3).
+Customers ranked by total net revenue to check what share the top decile contributes — a Pareto-style concentration check applied at the customer level.
+
+Finding: revenue is spread fairly evenly across the customer base — the top 10% contribute well under half of total revenue, unlike a classic 80/20 pattern. The business is not overly dependent on a small handful of customers.
 
 **Finding:** revenue is spread fairly evenly across the customer base — the top 10% contribute well under half of total revenue, unlike a classic 80/20 pattern. The business is not overly dependent on a small handful of customers, a different risk profile from the product-level concentration seen elsewhere.
 
 ---
 
-## Module 5 — Revenue Forecasting
+## Revenue Forecasting
 
 ### 1. Monthly Trend & Seasonality Check
 Monthly revenue is aggregated and plotted before any model is chosen. Revenue rises every November/December in both years and drops back in January — a clear annual seasonal pattern on top of a mild upward trend.
